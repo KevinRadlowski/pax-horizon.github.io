@@ -1,0 +1,47 @@
+.presentation-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1a1f2b;
+    color: #d3a678;
+    border-bottom: 2px solid #d3a678;
+  
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    .description {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+  
+    .info p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    // .causes
+    //  {
+    //   text-align: left !important;
+    //   margin-left: 20%;
+    // }
+  
+    .btn-join {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #d3a678;
+      color: #10181f;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s ease-in-out;
+  
+      &:hover {
+        background-color: white;
+        color: #10181f;
+      }
+    }
+  }
+  

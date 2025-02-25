@@ -1,0 +1,24 @@
+<section id="testimonials" class="testimonials-section">
+  <div class="container">
+    <h2 class="section-title">Témoignages des Membres</h2>
+
+    <div class="testimonials-slider">
+      <button class="prev" (click)="prevSlide()">&#10094;</button>
+
+      <div class="testimonial-card">
+        <p class="feedback">"{{ testimonials[activeIndex].feedback }}"</p>
+        <h3>- {{ testimonials[activeIndex].name }}</h3>
+      </div>
+
+      <button class="next" (click)="nextSlide()">&#10095;</button>
+    </div>
+
+    <div class="dots">
+      <span *ngFor="let testimonial of testimonials; let i = index"
+            class="dot" 
+            [class.active]="i === activeIndex"
+            (click)="goToSlide(i)">
+      </span>
+    </div>
+  </div>
+</section>

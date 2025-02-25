@@ -1,0 +1,40 @@
+.games-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #10181f;
+  color: #d3a678;
+  border-bottom: 2px solid #d3a678;
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  owl-carousel-o {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .game-card {
+    text-align: center;
+    padding: 15px;
+    background: #1a1f2b;
+    border-radius: 10px;
+
+    img {
+      width: 100%;
+      max-width: 250px;  // Largeur maximale
+      height: 250px;      // Hauteur fixe
+      object-fit: cover;  // Remplit l’espace sans déformation
+      border-radius: 10px;
+      border: 2px solid #d3a678;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #10181f;
+    border-bottom: 2px solid #d3a678;
+    padding: 10px 20px;
+  
+    .navbar-brand {
+      color: #d3a678;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  
+    .nav-link {
+      color: #d3a678 !important;
+      margin-left: 15px;
+      font-weight: 500;
+      transition: color 0.3s ease-in-out;
+  
+      &:hover {
+        color: white !important;
+      }
+    }
+  
+    .navbar-toggler-icon {
+      background-color: #d3a678;
+    }
+
+    .logo {
+      max-width: 150px;
+    }
+  }
+  

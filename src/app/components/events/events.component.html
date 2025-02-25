@@ -1,0 +1,67 @@
+<section id="events" class="events-section">
+  <div class="container">
+    <h2 class="section-title">📅 Agenda des Événements</h2>
+
+    <div class="events-grid">
+      <!-- Événements mensuels -->
+      <div class="event-card">
+        <h3>📆 Event du Mois</h3>
+        <ul>
+          <li *ngFor="let event of monthlyEvents">
+            <strong>{{ event.title }}</strong> - {{ event.description }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Concours LAN Caritatif -->
+      <div class="event-card">
+        <h3>🎮 Concours LAN Caritatif</h3>
+        <ul>
+          <li *ngFor="let event of lanTournaments">
+            <strong>{{ event.title }}</strong> - {{ event.description }} ({{ event.frequency }})
+          </li>
+        </ul>
+      </div>
+
+      <!-- Événements caritatifs -->
+      <div class="event-card">
+        <h3>🎗 Event Caritatif</h3>
+        <ul>
+          <li *ngFor="let event of charityEvents">
+            <strong>{{ event.title }}</strong> - {{ event.description }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tirages spéciaux -->
+      <div class="event-card">
+        <h3>🎁 Tirage au Sort Fête</h3>
+        <ul>
+          <li *ngFor="let event of specialDraws">
+            <strong>{{ event.title }}</strong> - {{ event.description }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Agenda des streams -->
+      <div class="event-card">
+        <h3>🎥 Agenda Streaming</h3>
+        <ul>
+          <li *ngFor="let stream of streamSchedule">
+            <strong>{{ stream.day }}</strong> - {{ stream.time }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Notes -->
+      <div class="event-card">
+        <h3>ℹ️ Notes</h3>
+        <p>Cette année 2025, l’Event Caritatif de Juin n’aura pas lieu !</p>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="https://discord.gg/NpFWqFpH" target="_blank" class="btn-all-events">Voir plus sur Discord</a>
+    </div>
+  </div>
+</section>

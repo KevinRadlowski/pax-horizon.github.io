@@ -1,0 +1,18 @@
+<section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Nous Contacter</h2>
+      
+      <p>Rejoignez-nous sur nos réseaux et venez discuter avec la communauté !</p>
+  
+      <div class="social-links">
+        <a *ngFor="let link of socialLinks" [href]="link.url" target="_blank">
+          <img [src]="link.icon" [alt]="link.name" />
+          <span>{{ link.name }}</span>
+        </a>
+      </div>
+  
+      <p>Ou contactez-nous directement par email :</p>
+      <a href="mailto:contact@paxhorizon.com" class="email-link">contact&#64;paxhorizon.com</a>
+    </div>
+  </section>
+  
