@@ -12,10 +12,10 @@ export class TeamComponent {
   teamMembers = [
     { name: "Zhu DonDon", role: "Président", image: "assets/images/grades/Président.png" },
     { name: "Wiiwi", role: "Vice-Président", image: "assets/images/grades/vice-président.png" },
-    { name: "LeMaudit", role: "Coordinateur", image: "assets/images/grades/Coordinateur2.png" },
-    { name: "Labraas", role: "Coordinateur", image: "assets/images/grades/Coordinateur2.png" },
     { name: "LittleDonDon", role: "Trésorière", image: "assets/images/grades/tresorier.png" },
     { name: "Paniha", role: "Secrétaire", image: "assets/images/grades/Secrétaire.png" },
+    { name: "LeMaudit", role: "Coordinateur", image: "assets/images/grades/Coordinateur2.png" },
+    { name: "Labraas", role: "Coordinateur", image: "assets/images/grades/Coordinateur2.png" },
     { name: "Detzer", role: "Modérateur", image: "assets/images/grades/moderateur.png" },
     { name: "ForceBook", role: "Modérateur", image: "assets/images/grades/moderateur.png" },
     { name: "Maiden", role: "Modérateur", image: "assets/images/grades/moderateur.png" },

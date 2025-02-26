@@ -6,8 +6,14 @@
       <button class="prev" (click)="prevSlide()">&#10094;</button>
 
       <div class="testimonial-card">
+        <h3 class="testimonial-title">{{ testimonials[activeIndex].title }}</h3>
+        <div class="stars">
+          <span *ngFor="let star of getStars(testimonials[activeIndex].stars)">⭐</span>
+        </div>
         <p class="feedback">"{{ testimonials[activeIndex].feedback }}"</p>
-        <h3>- {{ testimonials[activeIndex].name }}</h3>
+        <p class="testimonial-footer">
+          - {{ testimonials[activeIndex].name }}, <span class="testimonial-date">{{ formatDate(testimonials[activeIndex].date) }}</span>
+        </p>
       </div>
 
       <button class="next" (click)="nextSlide()">&#10095;</button>
