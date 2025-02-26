@@ -9,9 +9,11 @@
 body {
     background-color: #10181f;
     color: #d3a678;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Anton', sans-serif;
   }
-  
+  h1, h2, h3, p {
+    font-family: 'Anton', sans-serif;
+  }
   .container-fluid {
     // max-width: 1200px;
     margin: auto;
