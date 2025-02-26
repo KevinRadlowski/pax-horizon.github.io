@@ -24,39 +24,11 @@ import { isPlatformBrowser } from '@angular/common';
     RouterModule
   ],styleUrl: './app.component.scss'
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent {
   title = 'pax-horizon';
 
-  constructor(@Inject(PLATFORM_ID) private platformId: object) {}
-  @HostListener('window:scroll', ['$event'])
-  onScroll() {
-    if (isPlatformBrowser(this.platformId)) {
-      this.revealElements();
-    }
-  }
 
-  ngAfterViewInit() {
-    if (isPlatformBrowser(this.platformId)) {
-      // Exécuter après un court délai pour éviter un problème de timing
-      setTimeout(() => {
-        this.revealElements();
-      }, 100);
-    }
-  }
-
-  private revealElements() {
-    if (isPlatformBrowser(this.platformId)) {
-      const elements = document.querySelectorAll('.hidden');
-      elements.forEach((el: Element) => {
-        const elementTop = el.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        if (elementTop < windowHeight - 100) {
-          el.classList.add('visible');
-        }
-      });
-    }
-  }
-  
+ 
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }

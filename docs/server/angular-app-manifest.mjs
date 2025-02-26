@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/pax-horizon.github.io',
+  baseHref: '/pax-horizon.github.io/',
   locale: undefined,
   routes: [
   {
@@ -12,9 +12,9 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 56887, hash: 'b9a114da5f6b037c3bc4eb3a4aae25b5dc4fae95bfdbe87666b82f9d25785092', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 17187, hash: 'c309bc620ad028085a822a8c01bc5257df93a085d84503e271b5609c9361aa1f', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 105973, hash: 'b8cd8819871fe18e7ca9ddade99d7f595355a8f4543175b5f742bf1bcc41c7b3', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'styles-ADAYIW4N.css': {size: 315927, hash: 'UN0zNp9lB3c', text: () => import('./assets-chunks/styles-ADAYIW4N_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 56888, hash: 'a8534adb357b2329e80d361b013fe3941b76e8998e482b7138751cce4bcb82b2', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 17188, hash: '0aaaf2e68786ea8e439a535206b3f7512af75232212ce9892bd922f17584a537', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 105772, hash: 'bb69a23a98a42a831829c7247046a1030f0ed8095855fef5583eef9583c9121d', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'styles-UQXLRT5L.css': {size: 315784, hash: 'lKsQOlLoEps', text: () => import('./assets-chunks/styles-UQXLRT5L_css.mjs').then(m => m.default)}
   },
 };
