@@ -18,3 +18,48 @@
   }
   
   
+  .minecraft-map-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1a1f2b;
+    color: #d3a678;
+    border-bottom: 2px solid #d3a678;
+  
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    .map-container {
+      max-width: 1000px;
+      margin: auto;
+      border: 2px solid #d3a678;
+      border-radius: 10px;
+      overflow: hidden;
+  
+      iframe {
+        width: 100%;
+        height: 600px;
+        border: none;
+      }
+    }
+  
+    .btn-map {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #d3a678;
+      color: #10181f;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s ease-in-out;
+  
+      &:hover {
+        background-color: white;
+        color: #10181f;
+      }
+    }
+  }
+  
