@@ -2,30 +2,32 @@
 
 <main class="container-fluid">
   <app-presentation></app-presentation>
+  <app-events></app-events>
   <app-games></app-games>
-  <section id="minecraft-map" class="minecraft-map-section">
+  <section id="gallery" class="gallery-section">
     <div class="container">
-      <h2 class="section-title">🌍 Carte Minecraft</h2>
-      <p>Explorez notre monde Minecraft en direct :</p>
+      <h2 class="section-title">Nos serveurs</h2>
+      <p>Découvrez quelques serveurs de notre communauté :</p>
   
-      <div class="map-container">
-        <iframe 
-          src="http://83.143.117.23:60199/#world:-6075:0:-2650:11390:0:0:0:0:perspective"
-          width="100%" 
-          height="600px" 
-          frameborder="0" 
-          allowfullscreen>
-        </iframe>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="assets/images/serveur-rust.png" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/serveur-mc.png" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/serveur-palworld.png" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/serveur-eph.png" alt="Image 4">
+        </div>
       </div>
-  
-      <a href="http://83.143.117.23:60199/#world:-6075:0:-2650:11390:0:0:0:0:perspective"
-         target="_blank" class="btn-map">
-         🌍 Ouvrir en plein écran
-      </a>
+
     </div>
   </section>
   
-  <app-events></app-events>
+  
   <app-team></app-team>
   <app-testimonials></app-testimonials>
   <app-contact></app-contact>

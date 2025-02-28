@@ -11,8 +11,8 @@ import { CommonModule } from '@angular/common';
 export class ContactComponent {
   socialLinks = [
     { name: "Discord", icon: "assets/images/social/discord2.png", url: "https://discord.gg/NpFWqFpH" },
-    { name: "Twitch", icon: "assets/images/social/twitch.png", url: "https://www.twitch.tv/pax_community" },
-    { name: "Twitter", icon: "assets/images/social/x.png", url: "https://twitter.com/votre-compte" },
-    { name: "YouTube", icon: "assets/images/social/youtube2.png", url: "https://youtube.com/votre-chaîne" }
+    { name: "Twitch", icon: "assets/images/social/twitch.png", url: "https://www.twitch.tv/pax_horizon" },
+    { name: "BlueSky", icon: "assets/images/social/bluesky.svg", url: "https://bsky.app/profile/pax-community.bsky.social" },
+    { name: "Instagram", icon: "assets/images/social/instagram.png", url: "https://www.instagram.com/pax_community?igsh=N3M2cTExNnBibHk5" }
   ];
 }

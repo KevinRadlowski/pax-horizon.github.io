@@ -3,8 +3,8 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #d3a678;
-  color: #10181f;
+  background: #d2a778;
+  color: #10171f;
   padding: 10px 15px;
   border-radius: 50%;
   border: none;
@@ -19,12 +19,12 @@
 }
 
 
-.minecraft-map-section {
+.gallery-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #1a1f2b;
-  color: #d3a678;
-  border-bottom: 2px solid #d3a678;
+  background-color: #10171f;
+  color: #d2a778;
+  border-bottom: 2px solid #d2a778;
 
   .section-title {
     font-size: 2rem;
@@ -32,43 +32,49 @@
     margin-bottom: 20px;
   }
 
-  .map-container {
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
     max-width: 1000px;
     margin: auto;
-    border: 2px solid #d3a678;
-    border-radius: 10px;
-    overflow: hidden;
+  }
 
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
+  .gallery-item {
+    flex: 1;
+    max-width: 30%; /* Assure une bonne répartition */
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
     }
   }
 
-  .btn-map {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: #d3a678;
-    color: #10181f;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background 0.3s ease-in-out;
+  @media (max-width: 768px) {
+    .gallery {
+      flex-direction: column;
+      gap: 15px;
+    }
 
-    &:hover {
-      background-color: white;
-      color: #10181f;
+    .gallery-item {
+      max-width: 100%;
     }
   }
 }
 
 .footer {
-  background-color: #10181f;
-  color: #d3a678;
+  background-color: #10171f;
+  color: #d2a778;
   text-align: center;
   padding: 15px 0;
   font-size: 0.9rem;
-  border-top: 2px solid #d3a678;
+  border-top: 2px solid #d2a778;
 }

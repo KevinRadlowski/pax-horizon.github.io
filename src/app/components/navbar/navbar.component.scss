@@ -1,16 +1,16 @@
 .navbar {
-    background-color: #10181f;
-    border-bottom: 2px solid #d3a678;
+    background-color: #10171f;
+    border-bottom: 2px solid #d2a778;
     padding: 10px 20px;
   
     .navbar-brand {
-      color: #d3a678;
+      color: #d2a778;
       font-weight: bold;
       font-size: 1.5rem;
     }
   
     .nav-link {
-      color: #d3a678 !important;
+      color: #d2a778 !important;
       margin-left: 15px;
       font-weight: 500;
       transition: color 0.3s ease-in-out;
@@ -21,11 +21,11 @@
     }
   
     .navbar-toggler-icon {
-      background-color: #d3a678;
+      background-color: #d2a778;
     }
 
     .logo {
-      max-width: 150px;
+      max-width: 100px;
     }
   }
   

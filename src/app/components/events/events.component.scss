@@ -1,9 +1,9 @@
 .events-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #10181f;
-  color: #d3a678;
-  border-bottom: 2px solid #d3a678;
+  background-color: #10171f;
+  color: #d2a778;
+  border-bottom: 2px solid #d2a778;
 
   .section-title {
     font-size: 2rem;
@@ -20,10 +20,10 @@
   }
 
   .event-card {
-    background: #1a1f2b;
+    background: #312b2b;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #d3a678;
+    border: 2px solid #d2a778;
     text-align: left;
     transition: transform 0.3s ease-in-out;
     display: flex;
@@ -48,7 +48,7 @@
       li {
         font-size: 1rem;
         padding: 5px 0;
-        border-bottom: 1px solid #d3a678;
+        border-bottom: 1px solid #d2a778;
       }
 
       li:last-child {
@@ -66,8 +66,8 @@
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #d3a678;
-    color: #10181f;
+    background-color: #d2a778;
+    color: #10171f;
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
@@ -75,7 +75,7 @@
 
     &:hover {
       background-color: white;
-      color: #10181f;
+      color: #10171f;
     }
   }
 }

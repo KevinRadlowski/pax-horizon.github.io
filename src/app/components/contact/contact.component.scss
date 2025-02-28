@@ -1,8 +1,8 @@
 .contact-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #1a1f2b;
-  color: #d3a678;
+  background-color: #312b2b;
+  color: #d2a778;
 
   .section-title {
       font-size: 2rem;
@@ -20,18 +20,18 @@
       a {
           display: flex;
           align-items: center;
-          background: #1a1f2b;
+          background: #312b2b;
           padding: 10px 15px;
           border-radius: 10px;
           text-decoration: none;
-          color: #d3a678;
+          color: #d2a778;
           font-weight: bold;
           transition: background 0.3s ease-in-out;
-          border: 2px solid #d3a678;
+          border: 2px solid #d2a778;
 
           &:hover {
-              background: #d3a678;
-              color: #1a1f2b;
+              background: #d2a778;
+              color: #312b2b;
               border: 2px solid #ffffff;
           }
 
@@ -53,8 +53,8 @@
       display: inline-block;
       margin-top: 10px;
       padding: 12px 24px;
-      background-color: #d3a678;
-      color: #10181f;
+      background-color: #d2a778;
+      color: #10171f;
       font-weight: bold;
       border-radius: 5px;
       text-decoration: none;
@@ -62,7 +62,7 @@
 
       &:hover {
           background-color: white;
-          color: #10181f;
+          color: #10171f;
       }
   }
 

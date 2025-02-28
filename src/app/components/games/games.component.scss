@@ -1,9 +1,9 @@
 .games-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #10181f;
-  color: #d3a678;
-  border-bottom: 2px solid #d3a678;
+  background-color: #312b2b;
+  color: #d2a778;
+  border-bottom: 2px solid #d2a778;
 
   .section-title {
     font-size: 2rem;
@@ -20,7 +20,7 @@
   .game-card {
     text-align: center;
     padding: 15px;
-    background: #1a1f2b;
+    background: #312b2b;
     border-radius: 10px;
 
     img {
@@ -29,7 +29,7 @@
       height: 250px;      // Hauteur fixe
       object-fit: cover;  // Remplit l’espace sans déformation
       border-radius: 10px;
-      border: 2px solid #d3a678;
+      border: 2px solid #d2a778;
     }
 
     h3 {
